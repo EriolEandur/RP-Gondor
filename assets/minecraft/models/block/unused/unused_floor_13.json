@@ -1,0 +1,22 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/unused/unusedT13",
+        "slab": "blocks/unused/unusedN13",
+        "top": "blocks/unused/unusedT13",
+        "bottom": "blocks/unused/unusedB13"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 2, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0,  0, 16, 16 ], "texture": "#bottom"},
+                "up":    { "uv": [ 0,  0, 16, 16 ], "texture": "#top"},
+                "north": { "uv": [ 0, 14, 16, 16 ], "texture": "#slab", "cullface": "north" },
+                "south": { "uv": [ 0, 14, 16, 16 ], "texture": "#slab", "cullface": "south" },
+                "west":  { "uv": [ 0, 14, 16, 16 ], "texture": "#slab", "cullface": "west" },
+                "east":  { "uv": [ 0, 14, 16, 16 ], "texture": "#slab", "cullface": "east" }
+            }
+        }
+    ]
+}

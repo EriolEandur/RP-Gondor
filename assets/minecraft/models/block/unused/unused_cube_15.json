@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "blocks/unused/unusedB15",
+        "down": "blocks/unused/unusedB15",
+        "up": "blocks/unused/unusedT15",
+        "north": "blocks/unused/unusedN15",
+        "east": "blocks/unused/unusedE15",
+        "south": "blocks/unused/unusedS15",
+        "west": "blocks/unused/unusedW15"
+    }
+}

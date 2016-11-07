@@ -1,0 +1,7 @@
+{
+    "parent": "block/leaves",
+    "textures": {
+        "particle": "blocks/unused/unusedB00",
+        "all": "blocks/unused/unusedB00"
+    }
+}
