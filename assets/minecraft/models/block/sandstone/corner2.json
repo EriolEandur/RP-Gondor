@@ -1,0 +1,10 @@
+{
+    "parent": "block/sandstone/corner",
+    "textures": {
+        "particle": "blocks/sandstone_normal",
+        "up": "blocks/sandstone_normal",
+        "down": "blocks/sandstone_bottom",
+        "side": "blocks/sandstone/corner2",
+        "side_alt": "blocks/sandstone/corner_alt"
+    }
+}
