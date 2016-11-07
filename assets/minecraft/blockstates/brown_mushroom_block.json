@@ -1,0 +1,52 @@
+{
+    "variants": {
+        "variant=north_west": [
+            { "model": "sandstone/corner1"},
+            { "model": "sandstone/corner2"},
+            { "model": "sandstone/corner3"},
+            { "model": "sandstone/corner4"},
+            { "model": "sandstone/corner5"}
+        ],
+        "variant=north": [
+            { "model": "sandstone/corner1","y": 90 },
+            { "model": "sandstone/corner2","y": 90 },
+            { "model": "sandstone/corner3","y": 90 },
+            { "model": "sandstone/corner4","y": 90 },
+            { "model": "sandstone/corner5","y": 90 }
+        ],
+        "variant=north_east": { "model": "sandstone/small_smooth" },
+        "variant=west": { "model": "sandstone/small_smooth","y": 90, "uvlock": true },
+        "variant=center": { "model": "sandstone/small_smooth","y": 180, "uvlock": true },
+        "variant=east": { "model": "sandstone/small_smooth","y": 270, "uvlock": true },
+        "variant=south_west": { "model": "sandstone/small_deco" },
+        "variant=south": { "model": "sandstone/small_deco_corner" },
+        "variant=south_east": { "model": "sandstone/small_deco_corner", "y": 90, "uvlock": true },
+        "variant=stem": { "model": "unused/unused_cube_10" },
+        "variant=all_stem": { "model": "unused/unused_cube_12" },
+        "variant=all_outside": { "model": "unused/unused_cube_11" },
+        "variant=all_inside": [
+            { "model": "sandstone/smallBrick1"},
+            { "model": "sandstone/smallBrick2"},
+            { "model": "sandstone/smallBrick3"},
+            { "model": "sandstone/smallBrick4"},
+            { "model": "sandstone/smallBrick5"},
+            { "model": "sandstone/smallBrick6"},
+            { "model": "sandstone/smallBrick7"},
+            { "model": "sandstone/smallBrick8"},
+            { "model": "sandstone/smallBrick9"},
+            { "model": "sandstone/smallBrick10"},
+            { "model": "sandstone/smallBrick11"},
+            { "model": "sandstone/smallBrick12"},
+            { "model": "sandstone/smallBrick13"},
+            { "model": "sandstone/smallBrick14"},
+            { "model": "sandstone/smallBrick15"},
+            { "model": "sandstone/smallBrick16"},
+            { "model": "sandstone/smallBrick17"},
+            { "model": "sandstone/smallBrick18"},
+            { "model": "sandstone/smallBrick19"},
+            { "model": "sandstone/smallBrick20"}
+        ]
+
+    }
+}
+

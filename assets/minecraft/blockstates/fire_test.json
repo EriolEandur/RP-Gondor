@@ -1,0 +1,52 @@
+{
+    "multipart": [
+        {   "when": {"age": "0"},
+            "apply": { "model": "unused/unused_cross_2" }
+        },
+        {   "when": {"age": "1"},
+            "apply": { "model": "unused/unused_cross_1" }
+        },
+        {   "when": {"age": "2"},
+            "apply": { "model": "unused/unused_cross_2" }
+        },
+        {   "when": {"age": "3"},
+            "apply": { "model": "unused/unused_cross_3" }
+        },
+        {   "when": {"age": "4"},
+            "apply": { "model": "unused/unused_cross_4" }
+        },
+        {   "when": {"age": "5"},
+            "apply": { "model": "unused/unused_cross_5" }
+        },
+        {   "when": {"age": "6"},
+            "apply": { "model": "unused/unused_cross_6" }
+        },
+        {   "when": {"age": "7"},
+            "apply": { "model": "unused/unused_cross_7" }
+        },
+        {   "when": {"age": "8"},
+            "apply": { "model": "unused/unused_cross_8" }
+        },
+        {   "when": {"age": "9"},
+            "apply": { "model": "unused/unused_cross_9" }
+        },
+        {   "when": {"age": "10"},
+            "apply": { "model": "unused/unused_cross_10" }
+        },
+        {   "when": {"age": "11"},
+            "apply": { "model": "unused/unused_cross_11" }
+        },
+        {   "when": {"age": "12"},
+            "apply": { "model": "unused/unused_cross_12" }
+        },
+        {   "when": {"age": "13"},
+            "apply": { "model": "unused/unused_cross_13" }
+        },
+        {   "when": {"age": "14"},
+            "apply": { "model": "unused/unused_cross_14" }
+        },
+        {   "when": {"age": "15"},
+            "apply": { "model": "unused/unused_cross_15" }
+        }
+    ]
+}

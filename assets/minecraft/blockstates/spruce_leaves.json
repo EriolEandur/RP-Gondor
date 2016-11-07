@@ -1,0 +1,16 @@
+{
+    "multipart": [
+        {   "when": {"check_decay": "true" , "decayable": "true"},
+            "apply": { "model": "unused/unused_cube_5", "uvlock": true }
+        },
+        {   "when": {"check_decay": "true" , "decayable": "false"},
+            "apply": { "model": "unused/unused_cube_9", "uvlock": true }
+        },
+        {   "when": {"check_decay": "false" , "decayable": "true"},
+            "apply": { "model": "unused/unused_leaves_1", "uvlock": true }
+        },
+        {   "when": {"check_decay": "false" , "decayable": "false"},
+            "apply": { "model": "spruce_leaves", "uvlock": true }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "unused/unused_cube_0" },
+        "all":    { "model": "unused/unused_cube_7" }
+    }
+}

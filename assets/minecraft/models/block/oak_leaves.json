@@ -1,0 +1,7 @@
+{
+    "parent": "block/leaves",
+    "textures": {
+        "particle": "blocks/leaves_oak",
+        "all": "blocks/leaves_oak"
+    }
+}

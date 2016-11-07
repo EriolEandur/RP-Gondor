@@ -1,0 +1,16 @@
+{
+    "multipart": [
+        {   "when": {"attached":"false","disarmed":"false"},
+            "apply": { "model": "unused/unused_cross_0"}
+        },
+        {   "when": {"attached":"false","disarmed":"true"},
+            "apply": { "model": "unused/unused_cross_1"}
+        },
+        {   "when": {"attached":"true","disarmed":"false"},
+            "apply": { "model": "unused/unused_cross_2"}
+        },
+        {   "when": {"attached":"true","disarmed":"true"},
+            "apply": { "model": "unused/unused_cross_3"}
+        }
+    ]
+}

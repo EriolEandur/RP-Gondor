@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "edit/web_rotated",
+        "particle": "edit/web_rotated"
+    }
+}

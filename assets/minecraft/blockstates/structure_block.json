@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "mode=save": { "model": "unused/unused_cube_0" },
+        "mode=load": { "model": "unused/unused_cube_1" },
+        "mode=corner": { "model": "unused/unused_cube_2" },
+        "mode=data": { "model": "unused/unused_cube_3" }
+    }
+}

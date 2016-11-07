@@ -1,0 +1,7 @@
+{
+    "multipart": [
+        {   "when": { "north": true|false },
+            "apply": { "model": "unused/unused_cube_0" }
+        }
+    ]
+}

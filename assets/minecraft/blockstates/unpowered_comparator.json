@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=south,mode=compare,powered=false": { "model": "unused/unused_floor_8" },
+        "facing=west,mode=compare,powered=false": { "model": "unused/unused_floor_8", "y": 90 },
+        "facing=north,mode=compare,powered=false": { "model": "unused/unused_floor_8", "y": 180 },
+        "facing=east,mode=compare,powered=false": { "model": "unused/unused_floor_8", "y": 270 },
+        "facing=south,mode=subtract,powered=false": { "model": "unused/unused_floor_9" },
+        "facing=west,mode=subtract,powered=false": { "model": "unused/unused_floor_9", "y": 90 },
+        "facing=north,mode=subtract,powered=false": { "model": "unused/unused_floor_9", "y": 180 },
+        "facing=east,mode=subtract,powered=false": { "model": "unused/unused_floor_9", "y": 270 },
+        "facing=south,mode=compare,powered=true": { "model": "unused/unused_floor_10" },
+        "facing=west,mode=compare,powered=true": { "model": "unused/unused_floor_10", "y": 90 },
+        "facing=north,mode=compare,powered=true": { "model": "unused/unused_floor_10", "y": 180 },
+        "facing=east,mode=compare,powered=true": { "model": "unused/unused_floor_10", "y": 270 },
+        "facing=south,mode=subtract,powered=true": { "model": "unused/unused_floor_11" },
+        "facing=west,mode=subtract,powered=true": { "model": "unused/unused_floor_11", "y": 90 },
+        "facing=north,mode=subtract,powered=true": { "model": "unused/unused_floor_11", "y": 180 },
+        "facing=east,mode=subtract,powered=true": { "model": "unused/unused_floor_11", "y": 270 }
+    }
+}

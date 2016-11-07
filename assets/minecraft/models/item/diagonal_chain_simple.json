@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "edit/web_diagonal",
+        "particle": "edit/web_diagonal"
+    }
+}

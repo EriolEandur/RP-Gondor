@@ -1,0 +1,10 @@
+{
+    "multipart": [
+        {   "when": { "explode": false},
+            "apply": { "model": "tnt" }
+        },
+        {   "when": { "explode": true},
+            "apply": { "model": "unused/unused_cube_0" }
+        }
+    ]
+}

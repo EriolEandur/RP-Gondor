@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "pumpkin" },
+        "facing=south": { "model": "unused/unused_cube_0"},
+        "facing=west":  { "model": "unused/unused_cube_1"},
+        "facing=east":  { "model": "unused/unused_cube_2"}
+    }
+}

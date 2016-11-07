@@ -1,0 +1,17 @@
+{
+    "multipart": [
+        {   "when": {"check_decay": "true" , "decayable": "true"},
+            "apply": { "model": "unused/unused_cube_2", "uvlock": true }
+        },
+        {   "when": {"check_decay": "true" , "decayable": "false"},
+            "apply": { "model": "unused/unused_cube_4", "uvlock": true }
+        },
+        {   "when": {"check_decay": "false" , "decayable": "true"},
+            "apply": { "model": "unused/unused_leaves_0", "uvlock": true }
+        },
+        {   "when": {"check_decay": "false" , "decayable": "false"},
+            "apply": { "model": "acacia_leaves", "uvlock": true }
+        }
+    ]
+}
+

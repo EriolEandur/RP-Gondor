@@ -1,0 +1,18 @@
+{
+    "variants": {
+        "variant=north_west": { "model": "unused/unused_cube_1" },
+        "variant=north": { "model": "unused/unused_cube_2" },
+        "variant=north_east": { "model": "unused/unused_cube_3" },
+        "variant=west": { "model": "unused/unused_cube_4" },
+        "variant=center": { "model": "unused/unused_cube_5" },
+        "variant=east": { "model": "unused/unused_cube_6" },
+        "variant=south_west": { "model": "unused/unused_cube_7" },
+        "variant=south": { "model": "unused/unused_cube_8" },
+        "variant=south_east": { "model": "unused/unused_cube_9" },
+        "variant=stem": { "model": "unused/unused_cube_10" },
+        "variant=all_stem": { "model": "unused/unused_cube_12" },
+        "variant=all_outside": { "model": "unused/unused_cube_11" },
+        "variant=all_inside": { "model": "unused/unused_cube_0" }
+    }
+}
+

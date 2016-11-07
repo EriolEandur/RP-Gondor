@@ -1,0 +1,52 @@
+{
+    "multipart": [
+        {    "when": {"facing": "north", "part": "foot", "occupied": "false"},
+             "apply": { "model": "bed_foot", "y": 180 }
+        },
+        {    "when": {"facing": "east", "part": "foot", "occupied": "false"},
+             "apply": { "model": "bed_foot", "y": 270 }
+        },
+        {    "when": {"facing": "south", "part": "foot", "occupied": "false"},
+             "apply": { "model": "bed_foot" }
+        },
+        {    "when": {"facing": "west", "part": "foot", "occupied": "false"},
+             "apply": { "model": "bed_foot", "y": 90 }
+        },
+        {    "when": {"facing": "north", "part": "head", "occupied": "false"},
+             "apply": { "model": "bed_head", "y": 180 }
+        },
+        {    "when": {"facing": "east", "part": "head", "occupied": "false"},
+             "apply": { "model": "bed_head", "y": 270 }
+        },
+        {    "when": {"facing": "south", "part": "head", "occupied": "false"},
+             "apply": { "model": "bed_head" }
+        },
+        {    "when": {"facing": "west", "part": "head", "occupied": "false"},
+             "apply": { "model": "bed_head", "y": 90 }
+        },
+        {    "when": {"facing": "north", "part": "foot", "occupied": "true"},
+             "apply": { "model": "unused/unused_cube_0"}
+        },
+        {    "when": {"facing": "east", "part": "foot", "occupied": "true"},
+             "apply": { "model": "unused/unused_cube_1"}
+        },
+        {    "when": {"facing": "south", "part": "foot", "occupied": "true"},
+             "apply": { "model": "unused/unused_cube_2" }
+        },
+        {    "when": {"facing": "west", "part": "foot", "occupied": "true"},
+             "apply": { "model": "unused/unused_cube_3"}
+        },
+        {    "when": {"facing": "north", "part": "head", "occupied": "true"},
+             "apply": { "model": "unused/unused_cube_4"}
+        },
+        {    "when": {"facing": "east", "part": "head", "occupied": "true"},
+             "apply": { "model": "unused/unused_cube_5"}
+        },
+        {    "when": {"facing": "south", "part": "head", "occupied": "true"},
+             "apply": { "model": "unused/unused_cube_6" }
+        },
+        {    "when": {"facing": "west", "part": "head", "occupied": "true"},
+             "apply": { "model": "unused/unused_cube_7"}
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/gold_helmet"
+    },
+    "overrides": [
+        { "predicate": { "damage": 0.00008}, "model": "gui/block"},
+        { "predicate": { "damage": 0.0256}, "model": "gui/deco"},
+        { "predicate": { "damage": 0.0385}, "model": "gui/plant"},
+        { "predicate": { "damage": 0.0513}, "model": "gui/misc"}
+    ]
+}

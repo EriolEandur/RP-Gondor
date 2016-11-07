@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=up": { "model": "unused/unused_cube_0" },
+        "facing=down": { "model": "unused/unused_cube_1"},
+        "facing=east": { "model": "unused/unused_cube_2"},
+        "facing=south": { "model": "unused/unused_cube_3"},
+        "facing=west": { "model": "unused/unused_cube_4"},
+        "facing=north": { "model": "unused/unused_cube_5"}
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "power=0": { "model": "heavy_pressure_plate_up" },
+        "power=1": { "model": "heavy_pressure_plate_down" },
+        "power=2": { "model": "unused/unused_floor_0" },
+        "power=3": { "model": "unused/unused_floor_1" },
+        "power=4": { "model": "unused/unused_floor_2" },
+        "power=5": { "model": "unused/unused_floor_3" },
+        "power=6": { "model": "unused/unused_floor_4" },
+        "power=7": { "model": "unused/unused_floor_5" },
+        "power=8": { "model": "unused/unused_floor_6" },
+        "power=9": { "model": "unused/unused_floor_7" },
+        "power=10": { "model": "unused/unused_floor_8" },
+        "power=11": { "model": "unused/unused_floor_9" },
+        "power=12": { "model": "unused/unused_floor_10" },
+        "power=13": { "model": "unused/unused_floor_11" },
+        "power=14": { "model": "unused/unused_floor_12" },
+        "power=15": { "model": "unused/unused_floor_13" }
+    }
+}

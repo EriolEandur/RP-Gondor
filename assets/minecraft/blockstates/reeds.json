@@ -1,0 +1,52 @@
+{
+    "multipart": [
+        {   "when": { "age": "0" },
+            "apply": { "model": "reeds", "uvlock": true }
+        },
+        {   "when": { "age": "1" },
+            "apply": { "model": "unused/unused_cross_1", "uvlock": true }
+        },
+        {   "when": { "age": "2" },
+            "apply": { "model": "unused/unused_cross_2", "uvlock": true }
+        },
+        {   "when": { "age": "3" },
+            "apply": { "model": "unused/unused_cross_3", "uvlock": true }
+        },
+        {   "when": { "age": "4" },
+            "apply": { "model": "unused/unused_cross_4", "uvlock": true }
+        },
+        {   "when": { "age": "5" },
+            "apply": { "model": "unused/unused_cross_5", "uvlock": true }
+        },
+        {   "when": { "age": "6" },
+            "apply": { "model": "unused/unused_cross_6", "uvlock": true }
+        },
+        {   "when": { "age": "7" },
+            "apply": { "model": "unused/unused_cross_7", "uvlock": true }
+        },
+        {   "when": { "age": "8" },
+            "apply": { "model": "unused/unused_cross_8", "uvlock": true }
+        },
+        {   "when": { "age": "9" },
+            "apply": { "model": "unused/unused_cross_9", "uvlock": true }
+        },
+        {   "when": { "age": "10" },
+            "apply": { "model": "unused/unused_cross_10", "uvlock": true }
+        },
+        {   "when": { "age": "11" },
+            "apply": { "model": "unused/unused_cross_11", "uvlock": true }
+        },
+        {   "when": { "age": "12" },
+            "apply": { "model": "unused/unused_cross_12", "uvlock": true }
+        },
+        {   "when": { "age": "13" },
+            "apply": { "model": "unused/unused_cross_13", "uvlock": true }
+        },
+        {   "when": { "age": "14" },
+            "apply": { "model": "unused/unused_cross_14", "uvlock": true }
+        },
+        {   "when": { "age": "15" },
+            "apply": { "model": "unused/unused_cross_15", "uvlock": true }
+        }
+    ]
+}

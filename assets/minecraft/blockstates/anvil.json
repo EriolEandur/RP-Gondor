@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "damage=0,facing=south": { "model": "anvil_undamaged" },
+        "damage=0,facing=west": { "model": "anvil_undamaged", "y": 90 },
+        "damage=0,facing=north": { "model": "unused/unused_cube_0" },
+        "damage=0,facing=east": { "model": "unused/unused_cube_1"},
+        "damage=1,facing=south": { "model": "unused/unused_cube_2"},
+        "damage=1,facing=west": { "model": "unused/unused_cube_3"},
+        "damage=1,facing=north": { "model": "unused/unused_cube_4"},
+        "damage=1,facing=east": { "model": "unused/unused_cube_5"},
+        "damage=2,facing=south": { "model": "unused/unused_cube_6"},
+        "damage=2,facing=west": { "model": "unused/unused_cube_7"},
+        "damage=2,facing=north": { "model": "unused/unused_cube_8"},
+        "damage=2,facing=east": { "model": "unused/unused_cube_9"}
+    }
+}

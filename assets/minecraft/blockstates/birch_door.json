@@ -1,0 +1,198 @@
+{
+    "multipart": [
+        {   "when": {"facing": "east","half":"lower","hinge":"left","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_bottom"}
+        },
+        {   "when": {"facing": "south","half":"lower","hinge":"left","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_bottom", "y": 90}
+        },
+        {   "when": {"facing": "west","half":"lower","hinge":"left","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_bottom", "y": 180}
+        },
+        {   "when": {"facing": "north","half":"lower","hinge":"left","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_bottom", "y": 270}
+        },
+        {   "when": {"facing": "east","half":"lower","hinge":"right","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_bottom_rh"}
+        },
+        {   "when": {"facing": "south","half":"lower","hinge":"right","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_bottom_rh", "y": 90}
+        },
+        {   "when": {"facing": "west","half":"lower","hinge":"right","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_bottom_rh", "y": 180}
+        },
+        {   "when": {"facing": "north","half":"lower","hinge":"right","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_bottom_rh", "y": 270}
+        },
+        {   "when": {"facing": "east","half":"lower","hinge":"left","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_bottom_rh", "y": 90}
+        },
+        {   "when": {"facing": "south","half":"lower","hinge":"left","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_bottom_rh", "y": 180}
+        },
+        {   "when": {"facing": "west","half":"lower","hinge":"left","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_bottom_rh", "y": 270}
+        },
+        {   "when": {"facing": "north","half":"lower","hinge":"left","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_bottom_rh"}
+        },
+        {   "when": {"facing": "east","half":"lower","hinge":"right","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_bottom", "y": 270}
+        },
+        {   "when": {"facing": "south","half":"lower","hinge":"right","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_bottom"}
+        },
+        {   "when": {"facing": "west","half":"lower","hinge":"right","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_bottom", "y": 90}
+        },
+        {   "when": {"facing": "north","half":"lower","hinge":"right","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_bottom", "y": 180}
+        },
+        {   "when": {"facing": "east","half":"upper","hinge":"left","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_top"}
+        },
+        {   "when": {"facing": "south","half":"upper","hinge":"left","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_top", "y": 90}
+        },
+        {   "when": {"facing": "west","half":"upper","hinge":"left","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_top", "y": 180}
+        },
+        {   "when": {"facing": "north","half":"upper","hinge":"left","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_top", "y": 270}
+        },
+        {   "when": {"facing": "east","half":"upper","hinge":"right","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_top_rh"}
+        },
+        {   "when": {"facing": "south","half":"upper","hinge":"right","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_top_rh", "y": 90}
+        },
+        {   "when": {"facing": "west","half":"upper","hinge":"right","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_top_rh", "y": 180}
+        },
+        {   "when": {"facing": "north","half":"upper","hinge":"right","open":"false","powered":"false"},
+            "apply": { "model": "birch_door_top_rh", "y": 270}
+        },
+        {   "when": {"facing": "east","half":"upper","hinge":"left","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_top_rh", "y": 90}
+        },
+        {   "when": {"facing": "south","half":"upper","hinge":"left","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_top_rh", "y": 180}
+        },
+        {   "when": {"facing": "west","half":"upper","hinge":"left","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_top_rh", "y": 270}
+        },
+        {   "when": {"facing": "north","half":"upper","hinge":"left","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_top_rh"}
+        },
+        {   "when": {"facing": "east","half":"upper","hinge":"right","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_top", "y": 270}
+        },
+        {   "when": {"facing": "south","half":"upper","hinge":"right","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_top"}
+        },
+        {   "when": {"facing": "west","half":"upper","hinge":"right","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_top", "y": 90}
+        },
+        {   "when": {"facing": "north","half":"upper","hinge":"right","open":"true","powered":"false"},
+            "apply": { "model": "birch_door_top", "y": 180}
+        },
+
+        {   "when": {"facing": "east","half":"lower","hinge":"left","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_floor_0"}
+        },
+        {   "when": {"facing": "south","half":"lower","hinge":"left","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_floor_1"}
+        },
+        {   "when": {"facing": "west","half":"lower","hinge":"left","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_floor_2"}
+        },
+        {   "when": {"facing": "north","half":"lower","hinge":"left","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_floor_3"}
+        },
+        {   "when": {"facing": "east","half":"lower","hinge":"right","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_floor_4"}
+        },
+        {   "when": {"facing": "south","half":"lower","hinge":"right","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_floor_5"}
+        },
+        {   "when": {"facing": "west","half":"lower","hinge":"right","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_floor_6"}
+        },
+        {   "when": {"facing": "north","half":"lower","hinge":"right","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_floor_7"}
+        },
+        {   "when": {"facing": "east","half":"lower","hinge":"left","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_floor_8"}
+        },
+        {   "when": {"facing": "south","half":"lower","hinge":"left","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_floor_9"}
+        },
+        {   "when": {"facing": "west","half":"lower","hinge":"left","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_floor_10"}
+        },
+        {   "when": {"facing": "north","half":"lower","hinge":"left","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_floor_11"}
+        },
+        {   "when": {"facing": "east","half":"lower","hinge":"right","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_floor_12"}
+        },
+        {   "when": {"facing": "south","half":"lower","hinge":"right","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_floor_13"}
+        },
+        {   "when": {"facing": "west","half":"lower","hinge":"right","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_floor_14"}
+        },
+        {   "when": {"facing": "north","half":"lower","hinge":"right","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_floor_15"}
+        },
+        {   "when": {"facing": "east","half":"upper","hinge":"left","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_cross_0"}
+        },
+        {   "when": {"facing": "south","half":"upper","hinge":"left","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_cross_1"}
+        },
+        {   "when": {"facing": "west","half":"upper","hinge":"left","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_cross_2"}
+        },
+        {   "when": {"facing": "north","half":"upper","hinge":"left","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_cross_3"}
+        },
+        {   "when": {"facing": "east","half":"upper","hinge":"right","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_cross_4"}
+        },
+        {   "when": {"facing": "south","half":"upper","hinge":"right","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_cross_5"}
+        },
+        {   "when": {"facing": "west","half":"upper","hinge":"right","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_cross_6"}
+        },
+        {   "when": {"facing": "north","half":"upper","hinge":"right","open":"false","powered":"true"},
+            "apply": { "model": "unused/unused_cross_7"}
+        },
+        {   "when": {"facing": "east","half":"upper","hinge":"left","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_cross_8"}
+        },
+        {   "when": {"facing": "south","half":"upper","hinge":"left","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_cross_9"}
+        },
+        {   "when": {"facing": "west","half":"upper","hinge":"left","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_cross_10"}
+        },
+        {   "when": {"facing": "north","half":"upper","hinge":"left","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_cross_11"}
+        },
+        {   "when": {"facing": "east","half":"upper","hinge":"right","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_cross_12"}
+        },
+        {   "when": {"facing": "south","half":"upper","hinge":"right","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_cross_13"}
+        },
+        {   "when": {"facing": "west","half":"upper","hinge":"right","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_cross_14"}
+        },
+        {   "when": {"facing": "north","half":"upper","hinge":"right","open":"true","powered":"true"},
+            "apply": { "model": "unused/unused_cross_15"}
+        }
+
+    ]
+}

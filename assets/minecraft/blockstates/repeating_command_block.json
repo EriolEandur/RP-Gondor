@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "conditional=false,facing=down":  { "model": "unused/unused_cube_0"},
+        "conditional=false,facing=up":    { "model": "unused/unused_cube_1"},
+        "conditional=false,facing=north": { "model": "unused/unused_cube_2" },
+        "conditional=false,facing=south": { "model": "unused/unused_cube_3"},
+        "conditional=false,facing=west":  { "model": "unused/unused_cube_4"},
+        "conditional=false,facing=east":  { "model": "unused/unused_cube_5"},
+        "conditional=true,facing=down":  { "model": "unused/unused_cube_6"},
+        "conditional=true,facing=up":    { "model": "unused/unused_cube_7"},
+        "conditional=true,facing=north": { "model": "unused/unused_cube_8"},
+        "conditional=true,facing=south": { "model": "unused/unused_cube_9"},
+        "conditional=true,facing=west":  { "model": "unused/unused_cube_10"},
+        "conditional=true,facing=east":  { "model": "unused/unused_cube_11"}
+    }
+}

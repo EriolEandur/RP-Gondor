@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "wet=false": { "model": "sponge" },
+        "wet=true": { "model": "unused/unused_cube_1" }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/leather_chestplate",
+        "layer1": "items/leather_chestplate_overlay"
+    },
+    "overrides": [
+        { "predicate": { "damage": 0.0125}, "model": "item/iron_chestplate"},
+        { "predicate": { "damage": 0.0250}, "model": "item/golden_chestplate"},
+        { "predicate": { "damage": 0.0375}, "model": "item/diamond_chestplate"},
+        { "predicate": { "damage": 0.0500}, "model": "item/chainmail_chestplate"}
+    ]
+
+}

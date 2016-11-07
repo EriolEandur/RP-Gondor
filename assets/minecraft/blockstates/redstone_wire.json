@@ -1,0 +1,88 @@
+{
+    "multipart": [
+        {   "when": { "power": "0"},
+            "apply": { "model": "redstone_dot" }
+        },
+        {   "when": { "power": "1", "north": "none|up", "east": "none|up", "south": "none|up", "west": "none|up"},
+            "apply": { "model": "chain/chain_down_center" }
+        },
+        {   "when": { "power": "1", "north": "none|side", "east": "none|side", "south": "none|side", "west": "none|side"},
+            "apply": { "model": "chain/chain_up_center" }
+        },
+        {   "when": { "power": "1|2", "north": "up"},
+            "apply": { "model": "chain/chain_up_north" }
+        },
+        {   "when": { "power": "1|2", "south": "up"},
+            "apply": { "model": "chain/chain_up_north", "y": 180}
+        },
+        {   "when": { "power": "1|2", "east": "up"},
+            "apply": { "model": "chain/chain_up_north", "y": 90 }
+        },
+        {   "when": { "power": "1|2", "west": "up"},
+            "apply": { "model": "chain/chain_up_north", "y": 270 }
+        },
+        {   "when": { "power": "1", "east": "side"},
+            "apply": { "model": "chain/chain_down_north", "y": 90  }
+        },
+        {   "when": { "power": "1", "west": "side"},
+            "apply": { "model": "chain/chain_down_north", "y": 270  }
+        },
+        {   "when": { "power": "1", "north": "side"},
+            "apply": { "model": "chain/chain_down_north" }
+        },
+        {   "when": { "power": "1", "south": "side"},
+            "apply": { "model": "chain/chain_down_north", "y": 180  }
+        },
+        {   "when": { "power": "2", "north": "side"},
+            "apply": { "model": "chain/chain_up_center", "x": 90}
+        },
+        {   "when": { "power": "2", "south": "side"},
+            "apply": { "model": "chain/chain_down_center", "x": 90}
+        },
+        {   "when": { "power": "2", "east": "side"},
+            "apply": { "model": "chain/chain_up_center_shift", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "2", "west": "side"},
+            "apply": { "model": "chain/chain_down_center", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "3"},
+            "apply": { "model": "unused/unused_cross_3" }
+        },
+        {   "when": { "power": "4"},
+            "apply": { "model": "unused/unused_cross_4" }
+        },
+        {   "when": { "power": "5"},
+            "apply": { "model": "unused/unused_cross_5" }
+        },
+        {   "when": { "power": "6"},
+            "apply": { "model": "unused/unused_cross_6" }
+        },
+        {   "when": { "power": "7"},
+            "apply": { "model": "unused/unused_cross_7" }
+        },
+        {   "when": { "power": "8"},
+            "apply": { "model": "unused/unused_cross_8" }
+        },
+        {   "when": { "power": "9"},
+            "apply": { "model": "unused/unused_cross_9" }
+        },
+        {   "when": { "power": "10"},
+            "apply": { "model": "unused/unused_cross_10" }
+        },
+        {   "when": { "power": "11"},
+            "apply": { "model": "unused/unused_cross_11" }
+        },
+        {   "when": { "power": "12"},
+            "apply": { "model": "unused/unused_cross_12" }
+        },
+        {   "when": { "power": "13"},
+            "apply": { "model": "unused/unused_cross_13" }
+        },
+        {   "when": { "power": "14"},
+            "apply": { "model": "unused/unused_cross_14" }
+        },
+        {   "when": { "power": "15"},
+            "apply": { "model": "unused/unused_cross_15" }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "unused/unused_cube_0" },
+        "axis=z": { "model": "unused/unused_cube_1"},
+        "axis=x": { "model": "unused/unused_cube_2"}
+    }
+}

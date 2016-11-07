@@ -1,0 +1,28 @@
+{
+    "multipart": [
+        {   "when": { "has_bottle_0": false, "has_bottle_1": false, "has_bottle_2": false },
+            "apply": { "model": "brewing_stand" }
+        },
+        {   "when": { "has_bottle_0": "false", "has_bottle_1": "false", "has_bottle_2": "true" },
+            "apply": { "model": "unused/unused_floor_4" }
+        },
+        {   "when": { "has_bottle_0": "false", "has_bottle_1": "true", "has_bottle_2": "false" },
+            "apply": { "model": "unused/unused_floor_2" }
+        },
+        {   "when": { "has_bottle_0": "false", "has_bottle_1": "true", "has_bottle_2": "true" },
+            "apply": { "model": "unused/unused_floor_6" }
+        },
+        {   "when": { "has_bottle_0": "true", "has_bottle_1": "false", "has_bottle_2": "false" },
+            "apply": { "model": "unused/unused_floor_1" }
+        },
+        {   "when": { "has_bottle_0": "true", "has_bottle_1": "false", "has_bottle_2": "true" },
+            "apply": { "model": "unused/unused_floor_5" }
+        },
+        {   "when": { "has_bottle_0": "true", "has_bottle_1": "true", "has_bottle_2": "false" },
+            "apply": { "model": "unused/unused_floor_3" }
+        },
+        {   "when": { "has_bottle_0": "true", "has_bottle_1": "true", "has_bottle_2": "true" },
+            "apply": { "model": "unused/unused_floor_7" }
+        }
+    ]
+}
