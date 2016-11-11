@@ -73,125 +73,125 @@
             "apply": { "model": "dark_oak_door_top_rh", "y": 270}
         },
         {   "when": {"facing": "east","half":"upper","hinge":"left","open":"true","powered":"false"},
-            "apply": { "model": "dark_oak_door_top_rh", "y": 90}
+            "apply": { "model": "doors/dark_oak_door_top_open_rh", "y": 90}
         },
         {   "when": {"facing": "south","half":"upper","hinge":"left","open":"true","powered":"false"},
-            "apply": { "model": "dark_oak_door_top_rh", "y": 180}
+            "apply": { "model": "doors/dark_oak_door_top_open_rh", "y": 180}
         },
         {   "when": {"facing": "west","half":"upper","hinge":"left","open":"true","powered":"false"},
-            "apply": { "model": "dark_oak_door_top_rh", "y": 270}
+            "apply": { "model": "doors/dark_oak_door_top_open_rh", "y": 270}
         },
         {   "when": {"facing": "north","half":"upper","hinge":"left","open":"true","powered":"false"},
-            "apply": { "model": "dark_oak_door_top_rh"}
+            "apply": { "model": "doors/dark_oak_door_top_open_rh"}
         },
         {   "when": {"facing": "east","half":"upper","hinge":"right","open":"true","powered":"false"},
-            "apply": { "model": "dark_oak_door_top", "y": 270}
+            "apply": { "model": "doors/dark_oak_door_top_open", "y": 270}
         },
         {   "when": {"facing": "south","half":"upper","hinge":"right","open":"true","powered":"false"},
-            "apply": { "model": "dark_oak_door_top"}
+            "apply": { "model": "doors/dark_oak_door_top_open"}
         },
         {   "when": {"facing": "west","half":"upper","hinge":"right","open":"true","powered":"false"},
-            "apply": { "model": "dark_oak_door_top", "y": 90}
+            "apply": { "model": "doors/dark_oak_door_top_open", "y": 90}
         },
         {   "when": {"facing": "north","half":"upper","hinge":"right","open":"true","powered":"false"},
-            "apply": { "model": "dark_oak_door_top", "y": 180}
+            "apply": { "model": "doors/dark_oak_door_top_open", "y": 180}
         },
 
         {   "when": {"facing": "east","half":"lower","hinge":"left","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_floor_0"}
+            "apply": { "model": "doors/dark_oak_door_bottom"}
         },
         {   "when": {"facing": "south","half":"lower","hinge":"left","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_floor_1"}
+            "apply": { "model": "doors/dark_oak_door_bottom", "y": 90}
         },
         {   "when": {"facing": "west","half":"lower","hinge":"left","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_floor_2"}
+            "apply": { "model": "doors/dark_oak_door_bottom", "y": 180}
         },
         {   "when": {"facing": "north","half":"lower","hinge":"left","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_floor_3"}
+            "apply": { "model": "doors/dark_oak_door_bottom", "y": 270}
         },
         {   "when": {"facing": "east","half":"lower","hinge":"right","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_floor_4"}
+            "apply": { "model": "doors/dark_oak_door_bottom_rh"}
         },
         {   "when": {"facing": "south","half":"lower","hinge":"right","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_floor_5"}
+            "apply": { "model": "doors/dark_oak_door_bottom_rh", "y": 90}
         },
         {   "when": {"facing": "west","half":"lower","hinge":"right","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_floor_6"}
+            "apply": { "model": "doors/dark_oak_door_bottom_rh", "y": 180}
         },
         {   "when": {"facing": "north","half":"lower","hinge":"right","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_floor_7"}
+            "apply": { "model": "doors/dark_oak_door_bottom_rh", "y": 270}
         },
         {   "when": {"facing": "east","half":"lower","hinge":"left","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_floor_8"}
+            "apply": { "model": "doors/dark_oak_door_bottom_rh", "y": 90}
         },
         {   "when": {"facing": "south","half":"lower","hinge":"left","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_floor_9"}
+            "apply": { "model": "doors/dark_oak_door_bottom_rh", "y": 180}
         },
         {   "when": {"facing": "west","half":"lower","hinge":"left","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_floor_10"}
+            "apply": { "model": "doors/dark_oak_door_bottom_rh", "y": 270}
         },
         {   "when": {"facing": "north","half":"lower","hinge":"left","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_floor_11"}
+            "apply": { "model": "doors/dark_oak_door_bottom_rh"}
         },
         {   "when": {"facing": "east","half":"lower","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_floor_12"}
+            "apply": { "model": "doors/dark_oak_door_bottom", "y": 270}
         },
         {   "when": {"facing": "south","half":"lower","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_floor_13"}
+            "apply": { "model": "doors/dark_oak_door_bottom"}
         },
         {   "when": {"facing": "west","half":"lower","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_floor_14"}
+            "apply": { "model": "doors/dark_oak_door_bottom", "y": 90}
         },
         {   "when": {"facing": "north","half":"lower","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_floor_15"}
+            "apply": { "model": "doors/dark_oak_door_bottom", "y": 180}
         },
         {   "when": {"facing": "east","half":"upper","hinge":"left","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_cross_0"}
+            "apply": { "model": "doors/dark_oak_door_top"}
         },
         {   "when": {"facing": "south","half":"upper","hinge":"left","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_cross_1"}
+            "apply": { "model": "doors/dark_oak_door_top", "y": 90}
         },
         {   "when": {"facing": "west","half":"upper","hinge":"left","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_cross_2"}
+            "apply": { "model": "doors/dark_oak_door_top", "y": 180}
         },
         {   "when": {"facing": "north","half":"upper","hinge":"left","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_cross_3"}
+            "apply": { "model": "doors/dark_oak_door_top", "y": 270}
         },
         {   "when": {"facing": "east","half":"upper","hinge":"right","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_cross_4"}
+            "apply": { "model": "doors/dark_oak_door_top_rh"}
         },
         {   "when": {"facing": "south","half":"upper","hinge":"right","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_cross_5"}
+            "apply": { "model": "doors/dark_oak_door_top_rh", "y": 90}
         },
         {   "when": {"facing": "west","half":"upper","hinge":"right","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_cross_6"}
+            "apply": { "model": "doors/dark_oak_door_top_rh", "y": 180}
         },
         {   "when": {"facing": "north","half":"upper","hinge":"right","open":"false","powered":"true"},
-            "apply": { "model": "unused/unused_cross_7"}
+            "apply": { "model": "doors/dark_oak_door_top_rh", "y": 270}
         },
         {   "when": {"facing": "east","half":"upper","hinge":"left","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_cross_8"}
+            "apply": { "model": "doors/dark_oak_door_top_rh", "y": 90}
         },
         {   "when": {"facing": "south","half":"upper","hinge":"left","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_cross_9"}
+            "apply": { "model": "doors/dark_oak_door_top_rh", "y": 180}
         },
         {   "when": {"facing": "west","half":"upper","hinge":"left","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_cross_10"}
+            "apply": { "model": "doors/dark_oak_door_top_rh", "y": 270}
         },
         {   "when": {"facing": "north","half":"upper","hinge":"left","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_cross_11"}
+            "apply": { "model": "doors/dark_oak_door_top_rh"}
         },
         {   "when": {"facing": "east","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_cross_12"}
+            "apply": { "model": "doors/dark_oak_door_top", "y": 270}
         },
         {   "when": {"facing": "south","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_cross_13"}
+            "apply": { "model": "doors/dark_oak_door_top"}
         },
         {   "when": {"facing": "west","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_cross_14"}
+            "apply": { "model": "doors/dark_oak_door_top", "y": 90}
         },
         {   "when": {"facing": "north","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "unused/unused_cross_15"}
+            "apply": { "model": "doors/dark_oak_door_top", "y": 180}
         }
 
     ]

@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_top",
+    "textures": {
+        "bottom": "blocks/doors/invisible",
+        "top": "blocks/doors/spruce_upper_top"
+    }
+}
