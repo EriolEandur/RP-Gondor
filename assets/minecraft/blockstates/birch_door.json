@@ -182,16 +182,16 @@
             "apply": { "model": "sandstone/sandstone_door", "y": 270}
         },
         {   "when": {"facing": "east","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "sandstone/sandstone_door"}
+            "apply": { "model": "sandstone/sandstone_door_window"}
         },
         {   "when": {"facing": "south","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "sandstone/sandstone_door", "y": 90}
+            "apply": { "model": "sandstone/sandstone_door_window", "y": 90}
         },
         {   "when": {"facing": "west","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "sandstone/sandstone_door", "y": 180}
+            "apply": { "model": "sandstone/sandstone_door_window", "y": 180}
         },
         {   "when": {"facing": "north","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "sandstone/sandstone_door", "y": 270}
+            "apply": { "model": "sandstone/sandstone_door_window", "y": 270}
         }
 
     ]

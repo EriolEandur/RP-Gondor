@@ -182,16 +182,16 @@
             "apply": { "model": "stone/stone_door", "y": 270}
         },
         {   "when": {"facing": "east","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "stone/stone_door"}
+            "apply": { "model": "stone/stone_door_window"}
         },
         {   "when": {"facing": "south","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "stone/stone_door", "y": 90}
+            "apply": { "model": "stone/stone_door_window", "y": 90}
         },
         {   "when": {"facing": "west","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "stone/stone_door", "y": 180}
+            "apply": { "model": "stone/stone_door_window", "y": 180}
         },
         {   "when": {"facing": "north","half":"upper","hinge":"right","open":"true","powered":"true"},
-            "apply": { "model": "stone/stone_door", "y": 270}
+            "apply": { "model": "stone/stone_door_window", "y": 270}
         }
 
     ]
