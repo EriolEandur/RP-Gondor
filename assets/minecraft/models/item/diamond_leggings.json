@@ -1,0 +1,16 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/diamond_leggings"
+    },
+    "overrides": [
+        { "predicate": { "damage": 0.00008}, "model": "item/barrel/potatoes"},
+        { "predicate": { "damage": 0.00403}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.00605}, "model": "block/unused/unused_cube_2"},
+        { "predicate": { "damage": 0.00806}, "model": "block/unused/unused_cube_3"},
+        { "predicate": { "damage": 0.01008}, "model": "block/unused/unused_cube_4"},
+        { "predicate": { "damage": 0.01210}, "model": "block/unused/unused_cube_5"},
+        { "predicate": { "damage": 0.01411}, "model": "block/unused/unused_cube_6"},
+        { "predicate": { "damage": 0.01613}, "model": "block/unused/unused_cube_7"}
+    ]
+}
