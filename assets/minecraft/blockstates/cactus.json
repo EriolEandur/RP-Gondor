@@ -16,7 +16,7 @@
             "apply": { "model": "sandstone/window_top", "y": 90}
         },
         {   "when": { "age": "5" },
-            "apply": { "model": "unused/unused_cube_5", "uvlock": true }
+            "apply": { "model": "misc/barrel", "uvlock": true }
         },
         {   "when": { "age": "6" },
             "apply": { "model": "unused/unused_cube_6", "uvlock": true }
