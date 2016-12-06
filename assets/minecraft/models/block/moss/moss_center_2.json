@@ -1,0 +1,7 @@
+{
+    "parent": "block/moss/ground_cover",
+    "textures": {
+        "cover": "blocks/moss/moss_center_2"
+    }
+}
+

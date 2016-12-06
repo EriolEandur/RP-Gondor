@@ -3,6 +3,9 @@
         {   "when": { "power": "0"},
             "apply": { "model": "redstone_dot" }
         },
+
+
+
         {   "when": { "power": "1", "north": "none|up", "east": "none|up", "south": "none|up", "west": "none|up"},
             "apply": { "model": "chain/chain_down_center" }
         },
@@ -45,15 +48,343 @@
         {   "when": { "power": "2", "west": "side"},
             "apply": { "model": "chain/chain_down_center", "x": 90, "y": 90}
         },
-        {   "when": { "power": "3"},
-            "apply": { "model": "unused/unused_cross_3" }
+
+
+
+
+        {   "when": { "power": "3", "north": "none", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "moss/moss_center"},
+              { "model": "moss/moss_center", "y": 90},
+              { "model": "moss/moss_center", "y": 180},
+              { "model": "moss/moss_center", "y": 270},
+              { "model": "moss/moss_center_1"},
+              { "model": "moss/moss_center_1", "y": 90},
+              { "model": "moss/moss_center_1", "y": 180},
+              { "model": "moss/moss_center_1", "y": 270},
+              { "model": "moss/moss_center_2"},
+              { "model": "moss/moss_center_2", "y": 90},
+              { "model": "moss/moss_center_2", "y": 180},
+              { "model": "moss/moss_center_2", "y": 270},
+              { "model": "moss/moss_center_3"},
+              { "model": "moss/moss_center_3", "y": 90},
+              { "model": "moss/moss_center_3", "y": 180},
+              { "model": "moss/moss_center_3", "y": 270},
+              { "model": "moss/moss_center_4"},
+              { "model": "moss/moss_center_4", "y": 90},
+              { "model": "moss/moss_center_4", "y": 180},
+              { "model": "moss/moss_center_4", "y": 270}
+            ]
         },
-        {   "when": { "power": "4"},
-            "apply": { "model": "unused/unused_cross_4" }
+        {   "when": { "power": "3", "north": "side|up", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "moss/moss_one_edge" }
+            ]
         },
-        {   "when": { "power": "5"},
-            "apply": { "model": "unused/unused_cross_5" }
+        {   "when": { "power": "3", "north": "none", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "moss/moss_one_edge", "y": 90 }
+            ]
         },
+        {   "when": { "power": "3", "north": "none", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "moss/moss_one_edge", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "moss/moss_one_edge", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "moss/moss_two_edges"}
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "moss/moss_two_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "moss/moss_two_edges", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "moss/moss_two_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "moss/moss_opposite_edges"}
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "moss/moss_opposite_edges", "y": 90 }
+            ]
+        },
+
+        {   "when": { "power": "3", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "moss/moss_three_edges"}
+            ]
+        },
+        {   "when": { "power": "3", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "moss/moss_three_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "moss/moss_three_edges", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "moss/moss_three_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "moss/moss_four_edges"},
+              { "model": "moss/moss_four_edges", "y": 90 },
+              { "model": "moss/moss_four_edges", "y": 180 },
+              { "model": "moss/moss_four_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "3", "north": "up", "west": "side|none", "east": "side|none"},
+            "apply": { "model": "moss/moss_opposite_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "3", "north": "up", "west": "up", "east": "side|none"},
+            "apply": { "model": "moss/moss_three_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "3", "north": "up", "west": "side|none", "east": "up"},
+            "apply": { "model": "moss/moss_three_edges", "x": 270}
+        },
+        {   "when": { "power": "3", "north": "up", "west": "up", "east": "up"},
+            "apply": { "model": "moss/moss_four_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "3", "east": "up", "north": "side|none", "south": "side|none"},
+            "apply": { "model": "moss/moss_opposite_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "3", "east": "up", "north": "up", "south": "side|none"},
+            "apply": { "model": "moss/moss_three_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "3", "east": "up", "north": "side|none", "south": "up"},
+            "apply": { "model": "moss/moss_three_edges", "x": 270, "y": 90}
+        },
+        {   "when": { "power": "3", "east": "up", "north": "up", "south": "up"},
+            "apply": { "model": "moss/moss_four_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "3", "south": "up", "east": "side|none", "west": "side|none"},
+            "apply": { "model": "moss/moss_opposite_edges", "x": 90}
+        },
+        {   "when": { "power": "3", "south": "up", "east": "up", "west": "side|none"},
+            "apply": { "model": "moss/moss_three_edges", "x": 90}
+        },
+        {   "when": { "power": "3", "south": "up", "east": "side|none", "west": "up"},
+            "apply": { "model": "moss/moss_three_edges", "x": 270, "y": 180}
+        },
+        {   "when": { "power": "3", "south": "up", "east": "up", "west": "up"},
+            "apply": { "model": "moss/moss_four_edges", "x": 90}
+        },
+        {   "when": { "power": "3", "west": "up", "south": "side|none", "north": "side|none"},
+            "apply": { "model": "moss/moss_opposite_edges", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "3", "west": "up", "south": "up", "north": "side|none"},
+            "apply": { "model": "moss/moss_three_edges", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "3", "west": "up", "south": "side|none", "north": "up"},
+            "apply": { "model": "moss/moss_three_edges", "x": 270, "y": 270}
+        },
+        {   "when": { "power": "3", "west": "up", "south": "up", "north": "up"},
+            "apply": { "model": "moss/moss_four_edges", "x": 90, "y": 90}
+        },
+
+
+
+
+
+        {   "when": { "power": "4", "north": "none", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "moss/dirt_center"},
+              { "model": "moss/dirt_center", "y": 90},
+              { "model": "moss/dirt_center", "y": 180},
+              { "model": "moss/dirt_center", "y": 270},
+              { "model": "moss/dirt_center_1"},
+              { "model": "moss/dirt_center_1", "y": 90},
+              { "model": "moss/dirt_center_1", "y": 180},
+              { "model": "moss/dirt_center_1", "y": 270}
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "moss/dirt_one_edge" }
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "moss/dirt_one_edge", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "moss/dirt_one_edge", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "moss/dirt_one_edge", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "moss/dirt_two_edges"}
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "moss/dirt_two_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "moss/dirt_two_edges", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "moss/dirt_two_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "moss/dirt_opposite_edges"}
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "moss/dirt_opposite_edges", "y": 90 }
+            ]
+        },
+
+        {   "when": { "power": "4", "north": "side|up", "east": "side|up", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "moss/dirt_three_edges"}
+            ]
+        },
+        {   "when": { "power": "4", "north": "none", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "moss/dirt_three_edges", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "none", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "moss/dirt_three_edges", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "side|up", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "moss/dirt_three_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "moss/dirt_four_edges"},
+              { "model": "moss/dirt_four_edges", "y": 90 },
+              { "model": "moss/dirt_four_edges", "y": 180 },
+              { "model": "moss/dirt_four_edges", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "4", "north": "up", "west": "side|none", "east": "side|none"},
+            "apply": { "model": "moss/dirt_opposite_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "4", "north": "up", "west": "up", "east": "side|none"},
+            "apply": { "model": "moss/dirt_three_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "4", "north": "up", "west": "side|none", "east": "up"},
+            "apply": { "model": "moss/dirt_three_edges", "x": 270}
+        },
+        {   "when": { "power": "4", "north": "up", "west": "up", "east": "up"},
+            "apply": { "model": "moss/dirt_four_edges", "x": 90, "y": 180 }
+        },
+        {   "when": { "power": "4", "east": "up", "north": "side|none", "south": "side|none"},
+            "apply": { "model": "moss/dirt_opposite_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "4", "east": "up", "north": "up", "south": "side|none"},
+            "apply": { "model": "moss/dirt_three_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "4", "east": "up", "north": "side|none", "south": "up"},
+            "apply": { "model": "moss/dirt_three_edges", "x": 270, "y": 90}
+        },
+        {   "when": { "power": "4", "east": "up", "north": "up", "south": "up"},
+            "apply": { "model": "moss/dirt_four_edges", "x": 90, "y": 270 }
+        },
+        {   "when": { "power": "4", "south": "up", "east": "side|none", "west": "side|none"},
+            "apply": { "model": "moss/dirt_opposite_edges", "x": 90}
+        },
+        {   "when": { "power": "4", "south": "up", "east": "up", "west": "side|none"},
+            "apply": { "model": "moss/dirt_three_edges", "x": 90}
+        },
+        {   "when": { "power": "4", "south": "up", "east": "side|none", "west": "up"},
+            "apply": { "model": "moss/dirt_three_edges", "x": 270, "y": 180}
+        },
+        {   "when": { "power": "4", "south": "up", "east": "up", "west": "up"},
+            "apply": { "model": "moss/dirt_four_edges", "x": 90}
+        },
+        {   "when": { "power": "4", "west": "up", "south": "side|none", "north": "side|none"},
+            "apply": { "model": "moss/dirt_opposite_edges", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "4", "west": "up", "south": "up", "north": "side|none"},
+            "apply": { "model": "moss/dirt_three_edges", "x": 90, "y": 90}
+        },
+        {   "when": { "power": "4", "west": "up", "south": "side|none", "north": "up"},
+            "apply": { "model": "moss/dirt_three_edges", "x": 270, "y": 270}
+        },
+        {   "when": { "power": "4", "west": "up", "south": "up", "north": "up"},
+            "apply": { "model": "moss/dirt_four_edges", "x": 90, "y": 90}
+        },
+
+
+
+
+
+        {   "when": { "power": "5", "north": "none", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "moss/puddle_center"}
+            ]
+        },
+        {   "when": { "power": "5", "north": "side|up", "east": "none", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "moss/puddle_one_edge" }
+            ]
+        },
+        {   "when": { "power": "5", "north": "none", "east": "side|up", "south": "none", "west": "none"},
+            "apply": [
+              { "model": "moss/puddle_one_edge", "y": 90 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "none", "east": "none", "south": "side|up", "west": "none"},
+            "apply": [
+              { "model": "moss/puddle_one_edge", "y": 180 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "none", "east": "none", "south": "none", "west": "side|up"},
+            "apply": [
+              { "model": "moss/puddle_one_edge", "y": 270 }
+            ]
+        },
+        {   "when": { "power": "5", "north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up"},
+            "apply": [
+              { "model": "moss/puddle_four_edges"}
+            ]
+        },
+
+
+
         {   "when": { "power": "6"},
             "apply": { "model": "unused/unused_cross_6" }
         },

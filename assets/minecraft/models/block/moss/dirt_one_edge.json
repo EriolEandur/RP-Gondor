@@ -1,0 +1,6 @@
+{
+    "parent": "block/moss/ground_cover",
+    "textures": {
+        "cover": "blocks/moss/dirt_one_edge"
+    }
+}
