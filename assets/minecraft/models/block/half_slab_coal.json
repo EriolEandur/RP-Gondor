@@ -1,0 +1,9 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "blocks/coal_block",
+        "top": "blocks/coal_block",
+        "side": "blocks/coal_block",
+        "particle": "blocks/coal_block"
+    }
+}

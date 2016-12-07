@@ -1,0 +1,17 @@
+{
+  "elements": [
+  {
+    "name": "top",
+    "from": [ 0.0, 8.0, 0.0 ],
+    "to": [ 16.0, 9.0, 16.0 ],
+    "faces": {
+      "up": { "texture": "#content", "uv": [ 2.0, 2.0, 14.0, 14.0 ] }
+      }
+    }
+  ],
+  "textures": {
+    "content": "blocks/cactus_side"
+  }
+}
+
+

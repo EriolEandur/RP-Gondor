@@ -1,0 +1,7 @@
+{
+  "parent": "item/barrel/barrel",
+  "textures": {
+    "2": "blocks/cactus_side"
+  }
+}
+
