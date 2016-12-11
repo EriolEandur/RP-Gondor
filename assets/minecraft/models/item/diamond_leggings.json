@@ -15,8 +15,8 @@
         { "predicate": { "damage": 0.01815}, "model": "block/half_slab_dirt"},
         { "predicate": { "damage": 0.02016}, "model": "block/half_slab_gravel"},
         { "predicate": { "damage": 0.02218}, "model": "block/half_slab_sand"},
-        { "predicate": { "damage": 0.02419}, "model": "block/unused/unused_cube_8"},
-        { "predicate": { "damage": 0.02621}, "model": "block/unused/unused_cube_8"},
+        { "predicate": { "damage": 0.02419}, "model": "block/block_item/barrel_apples"},
+        { "predicate": { "damage": 0.02621}, "model": "block/block_item/barrel_fish"},
         { "predicate": { "damage": 0.02823}, "model": "block/unused/unused_cube_8"},
         { "predicate": { "damage": 0.03024}, "model": "block/unused/unused_cube_8"},
         { "predicate": { "damage": 0.03226}, "model": "block/unused/unused_cube_8"}

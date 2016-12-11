@@ -1,7 +1,7 @@
 {
   "parent": "item/barrel/barrel",
   "textures": {
-    "2": "blocks/gravel"
+    "2": "blocks/misc/barrel_apples"
   }
 }
 
