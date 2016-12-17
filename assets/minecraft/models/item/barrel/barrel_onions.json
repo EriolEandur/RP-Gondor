@@ -1,7 +1,7 @@
 {
   "parent": "item/barrel/barrel",
   "textures": {
-    "2": "blocks/misc/barrel_potatoes"
+    "2": "blocks/misc/barrel_onions"
   }
 }
 
