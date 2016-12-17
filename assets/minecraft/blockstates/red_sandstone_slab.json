@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "block_item/placeholder" },
+        "half=top": { "model": "block_item/placeholder" }
+    }
+}
