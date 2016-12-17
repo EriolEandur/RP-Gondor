@@ -19,6 +19,8 @@
         { "predicate": { "damage": 0.1667}, "model": "gui/block"},
         { "predicate": { "damage": 0.1795}, "model": "gui/block_alt"},
         { "predicate": { "damage": 0.1923}, "model": "gui/deco"},
-        { "predicate": { "damage": 0.2051}, "model": "gui/deco_alt"}
+        { "predicate": { "damage": 0.2051}, "model": "gui/deco_alt"},
+        { "predicate": { "damage": 0.2179}, "model": "gui/glass"},
+        { "predicate": { "damage": 0.2308}, "model": "gui/glass_alt"}
     ]
 }

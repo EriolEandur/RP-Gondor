@@ -1,0 +1,9 @@
+{
+  "parent": "block/block_item/glass",
+  "textures": {
+    "glass": "blocks/glass/circle_blue_50",
+    "grid": "blocks/glass/circle"
+  }
+}
+
+
