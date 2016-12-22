@@ -63,7 +63,7 @@
         { "predicate": { "damage": 0.10775}, "model": "block/misc/log_rope"},
         { "predicate": { "damage": 0.10964}, "model": "block/misc/log_chain"},
         { "predicate": { "damage": 0.11153}, "model": "item/barrel/barrel_onions"},
-        { "predicate": { "damage": 0.11342}, "model": "block/unused/unused_cube_12"},
+        { "predicate": { "damage": 0.11342}, "model": "block/sandstone/small_indented"},
         { "predicate": { "damage": 0.11531}, "model": "block/unused/unused_cube_12"},
         { "predicate": { "damage": 0.11720}, "model": "block/unused/unused_cube_12"},
         { "predicate": { "damage": 0.11909}, "model": "block/unused/unused_cube_12"},
