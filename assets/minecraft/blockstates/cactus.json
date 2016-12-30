@@ -19,16 +19,16 @@
             "apply": { "model": "misc/barrel"}
         },
         {   "when": { "age": "6" },
-            "apply": { "model": "unused/unused_cube_6", "uvlock": true }
+            "apply": { "model": "sandstone/small_indented"}
         },
         {   "when": { "age": "7" },
-            "apply": { "model": "unused/unused_cube_7", "uvlock": true }
+            "apply": { "model": "sandstone/small_indented", "y":90 }
         },
         {   "when": { "age": "8" },
-            "apply": { "model": "unused/unused_cube_8", "uvlock": true }
+            "apply": { "model": "sandstone/small_indented", "y":180 }
         },
         {   "when": { "age": "9" },
-            "apply": { "model": "unused/unused_cube_9", "uvlock": true }
+            "apply": { "model": "sandstone/small_indented", "y":270 }
         },
         {   "when": { "age": "10" },
             "apply": { "model": "unused/unused_cube_10", "uvlock": true }
