@@ -21,9 +21,9 @@
         "variant=south_west": { "model": "sandstone/small_deco" },
         "variant=south": { "model": "sandstone/small_deco_corner" },
         "variant=south_east": { "model": "sandstone/small_deco_corner", "y": 90, "uvlock": true },
-        "variant=stem": { "model": "unused/unused_cube_10" },
-        "variant=all_stem": { "model": "unused/unused_cube_12" },
-        "variant=all_outside": { "model": "unused/unused_cube_11" },
+        "variant=stem": { "model": "sandstone/small_deco_bricks" },
+        "variant=all_stem": { "model": "unused/unused_cube_11" },
+        "variant=all_outside": { "model": "sandstone/small_large_deco" },
         "variant=all_inside": [
             { "model": "sandstone/smallBrick1"},
             { "model": "sandstone/smallBrick2"},
