@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "items/doors/thin_wall_sandstone"
+    }
+}
