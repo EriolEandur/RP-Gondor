@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "blocks/misc/fishing_net"
+        "layer0": "blocks/misc/fishing_net_two_border"
     },
     "display": {
         "head": {
