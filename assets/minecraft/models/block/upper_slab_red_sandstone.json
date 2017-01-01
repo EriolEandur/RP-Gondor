@@ -1,4 +1,16 @@
 {
     "parent": "block/block",
-    "elements":[]
+    "textures": {
+        "top":"blocks/misc/invisible",
+        "particle":"blocks/misc/invisible"
+    },
+    "elements": [
+        {   "from": [ 7, 10, 7 ],
+            "to": [ 8, 11.23, 8 ],
+            "faces": {
+                "up":    {"texture": "#top"}
+            }
+        }
+    ]
 }
+

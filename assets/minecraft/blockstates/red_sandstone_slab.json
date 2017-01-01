@@ -1,6 +1,6 @@
 {
     "variants": {
-        "half=bottom": { "model": "block_item/placeholder" },
-        "half=top": { "model": "block_item/placeholder" }
+        "half=bottom": { "model": "half_slab_red_sandstone" },
+        "half=top": { "model": "half_slab_red_sandstone" }
     }
 }

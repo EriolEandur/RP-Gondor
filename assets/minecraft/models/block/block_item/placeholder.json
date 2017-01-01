@@ -5,8 +5,8 @@
         "particle":"blocks/misc/invisible"
     },
     "elements": [
-        {   "from": [ 7.99, 7.99, 7.99 ],
-            "to": [ 8, 8, 8 ],
+        {   "from": [ 7.99, 1.99, 7.99 ],
+            "to": [ 8, 2, 8 ],
             "faces": {
                 "up":    {"texture": "#top"}
             }
