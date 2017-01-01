@@ -1,7 +1,7 @@
 {
     "variants": {
         "shape=north_south": { "model": "normal_rail_flat" },
-        "shape=east_west": { "model": "unused/unused_cross_0"},
+        "shape=east_west": { "model": "block_item/placeholder"},
         "shape=ascending_east": { "model": "normal_rail_raised_ne", "y": 90 },
         "shape=ascending_west": { "model": "normal_rail_raised_sw", "y": 90 },
         "shape=ascending_north": { "model": "normal_rail_raised_ne" },
