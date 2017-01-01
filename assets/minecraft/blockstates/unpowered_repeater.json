@@ -4,7 +4,7 @@
         "delay=1,facing=west,locked=false": { "model": "table_deco/two_candles", "y": 90 },
         "delay=1,facing=north,locked=false": { "model": "table_deco/two_candles", "y": 180 },
         "delay=1,facing=east,locked=false": { "model": "table_deco/two_candles", "y": 270 },
-        "delay=2,facing=south,locked=false": { "model": "unused/unused_floor_1" },
+        "delay=2,facing=south,locked=false": { "model": "interior/carpet_rough" },
         "delay=2,facing=west,locked=false": { "model": "unused/unused_floor_1", "y": 90 },
         "delay=2,facing=north,locked=false": { "model": "unused/unused_floor_1", "y": 180 },
         "delay=2,facing=east,locked=false": { "model": "unused/unused_floor_1", "y": 270 },
