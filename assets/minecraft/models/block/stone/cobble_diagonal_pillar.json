@@ -1,0 +1,6 @@
+{
+    "parent": "block/diagonal_pillar",
+    "textures": {
+        "side": "blocks/brick"
+    }
+}

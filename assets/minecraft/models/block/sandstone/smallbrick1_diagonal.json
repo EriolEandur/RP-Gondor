@@ -1,0 +1,6 @@
+{
+    "parent": "block/diagonal",
+    "textures": {
+        "side": "blocks/sandstone/smallBrick1"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/diagonal_alt",
+    "textures": {
+        "side": "blocks/sandstone/smallBrick1"
+    }
+}
