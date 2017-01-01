@@ -1,0 +1,6 @@
+{   "parent": "block/block_item/stool",
+    "textures": {
+        "top": "blocks/interior/stool_wood_top",
+        "side": "blocks/interior/stool_wood_side"
+    }
+}
