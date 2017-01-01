@@ -1,12 +1,12 @@
 {
     "parent": "block/block",
     "textures": {
-        "top":"blocks/dirt",
-        "particle":"blocks/dirt"
+        "top":"blocks/misc/invisible",
+        "particle":"blocks/misc/invisible"
     },
     "elements": [
         {   "from": [ 7, 1, 7 ],
-            "to": [ 8, 2, 8 ],
+            "to": [ 8, 2.23, 8 ],
             "faces": {
                 "up":    {"texture": "#top"}
             }
