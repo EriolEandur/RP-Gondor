@@ -31,13 +31,13 @@
             "apply": { "model": "sandstone/small_indented", "y":270 }
         },
         {   "when": { "age": "10" },
-            "apply": { "model": "unused/unused_cube_10", "uvlock": true }
+            "apply": { "model": "sandstone/pillar_bottom"}
         },
         {   "when": { "age": "11" },
-            "apply": { "model": "unused/unused_cube_11", "uvlock": true }
+            "apply": { "model": "sandstone/pillar_middle"}
         },
         {   "when": { "age": "12" },
-            "apply": { "model": "unused/unused_cube_12", "uvlock": true }
+            "apply": { "model": "sandstone/pillar_top"}
         },
         {   "when": { "age": "13" },
             "apply": { "model": "unused/unused_cube_13", "uvlock": true }
