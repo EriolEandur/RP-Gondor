@@ -123,6 +123,25 @@
         { "predicate": { "damage": 0.23589}, "model": "block/block_item/clothsline_pant_green"},
         { "predicate": { "damage": 0.23790}, "model": "block/block_item/clothsline_pant_brown_long"},
         { "predicate": { "damage": 0.23992}, "model": "block/block_item/clothsline_none"},
-        { "predicate": { "damage": 0.24194}, "model": "block/unused/unused_cube_1","name":120}
+        { "predicate": { "damage": 0.24194}, "model": "block/block_item/curtain_top","name":120},
+        { "predicate": { "damage": 0.24395}, "model": "block/block_item/curtain_bottom"},
+        { "predicate": { "damage": 0.24597}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.24798}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.25000}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.25202}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.25403}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.25605}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.25806}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.26008}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.26210}, "model": "block/unused/unused_cube_1","name":130},
+        { "predicate": { "damage": 0.26403}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.26613}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.26815}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.27016}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.27218}, "model": "block/unused/unused_cube_1","name":135},
+        { "predicate": { "damage": 0.27419}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.27621}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.27823}, "model": "block/unused/unused_cube_1"},
+        { "predicate": { "damage": 0.28024}, "model": "block/unused/unused_cube_1"}
     ]
 }

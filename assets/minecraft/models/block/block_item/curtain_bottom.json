@@ -1,0 +1,8 @@
+{
+    "parent": "block/block_item/curtain",
+    "textures": {
+        "layer0": "blocks/interior/curtain_bottom"
+    }
+}
+
+
