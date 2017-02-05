@@ -30,20 +30,14 @@
         {   "when": { "age": "9" },
             "apply": { "model": "sandstone/small_indented", "y":270 }
         },
-        {   "when": { "age": "10" },
-            "apply": { "model": "sandstone/pillar_bottom"}
+        {   "when": { "OR": [{"age": "10"},{"age":"13"}]},
+            "apply": { "model": "tree_pine_vertical"}
         },
-        {   "when": { "age": "11" },
-            "apply": { "model": "sandstone/pillar_middle"}
+        {   "when": { "OR": [{"age": "11"},{"age":"13"},{"age":"14"}]},
+            "apply": { "model": "tree_pine_horizontal", "y":90 }
         },
-        {   "when": { "age": "12" },
-            "apply": { "model": "sandstone/pillar_top"}
-        },
-        {   "when": { "age": "13" },
-            "apply": { "model": "unused/unused_cube_13", "uvlock": true }
-        },
-        {   "when": { "age": "14" },
-            "apply": { "model": "unused/unused_cube_14", "uvlock": true }
+        {   "when": { "OR": [{"age": "12"},{"age":"13"},{"age":"14"}]},
+            "apply": { "model": "tree_pine_horizontal"}
         },
         {   "when": { "age": "15" },
             "apply": { "model": "unused/unused_cube_15", "uvlock": true }

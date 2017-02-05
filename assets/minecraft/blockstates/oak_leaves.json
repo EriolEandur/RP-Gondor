@@ -4,7 +4,7 @@
             "apply": { "model": "unused/unused_cube_4", "uvlock": true }
         },
         {   "when": {"check_decay": "true" , "decayable": "false"},
-            "apply": { "model": "unused/unused_cube_8", "uvlock": true }
+            "apply": { "model": "oak_leaves", "uvlock": true }
         },
         {   "when": {"check_decay": "false" , "decayable": "true"},
             "apply": { "model": "unused/unused_leaves_0", "uvlock": true }
